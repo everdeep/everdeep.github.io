@@ -1,4 +1,5 @@
 ---
 ---
 $baseurl: "{{ site.baseurl }}";
+$siteurl: "{{ site.url }}";
 @import "styles.scss";

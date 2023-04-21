@@ -32,7 +32,7 @@
         // color: rgba(255, 255, 255, 0.5);
 
         &:required {
-            background-image: url($baseurl + "public/images/asterisk-red.png");
+            background-image: url($siteurl + $baseurl + "public/images/asterisk-red.png");
             background-position: right 10px center;
             background-repeat: no-repeat;
             background-size: 13px 13px;
