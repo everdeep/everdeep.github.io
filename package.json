@@ -1,6 +1,7 @@
 {
     "name": "crypto-client",
     "version": "2.0.0",
+    "homepage": "",
     "description": "Crypto client built from boiler plate: https://github.com/codesbiome/react-webpack-typescript-2022",
     "license": "MIT",
     "scripts": {
@@ -34,6 +35,7 @@
         "eslint-plugin-react": "^7.31.10",
         "file-loader": "^6.2.0",
         "fork-ts-checker-webpack-plugin": "^7.2.13",
+        "gh-pages": "^5.0.0",
         "html-loader": "^4.2.0",
         "html-webpack-plugin": "^5.5.0",
         "less": "^4.1.3",
