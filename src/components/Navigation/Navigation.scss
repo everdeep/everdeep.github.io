@@ -216,10 +216,10 @@
 }
 
 
-
 //  When screen is smaller than 768px hide nav
-@media screen and (max-width: 950px) {
-    .navigation__container {
-        display: none;
-    }
-}
+// @media screen and (max-width: 950px) {
+
+//     .navigation__container {
+//         max-width: fit-content;
+//     }
+// }

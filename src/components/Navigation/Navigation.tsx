@@ -15,10 +15,7 @@ import {
     Mail,
     Flask,
 } from '@src/Icons';
-import {
-    AppContextInterface,
-    withAppContext,
-} from '@components/App/AppContext';
+import { AppContextInterface, withAppContext } from '@components/App/AppContext';
 import { Cube, CubeWrapped } from '@components/Animations';
 import Directory from '@components/Directory';
 import Divider from '@components/Divider';
@@ -27,11 +24,7 @@ import ProfilePic from '@images/profile.png';
 
 import './Navigation.scss';
 
-const Navigation: React.FC = ({
-    appContext,
-}: {
-    appContext: AppContextInterface;
-}) => {
+const Navigation: React.FC = ({ appContext }: { appContext: AppContextInterface }) => {
     const [open, setOpen] = useState(true);
 
     return (
@@ -67,7 +60,8 @@ const Navigation: React.FC = ({
                             <NavLink to='/'>
                                 <h1>Sebastian Bird</h1>
                             </NavLink>
-                            <span>Fullstack Developer</span>
+                            <p>Fullstack Developer</p>
+                            <Divider className='accent' tag='Technologies' />
                             <div id='skillbar'>
                                 {Object.entries(icons)?.map(([key, value], index) => {
                                     return (
@@ -76,7 +70,7 @@ const Navigation: React.FC = ({
                                         </div>
                                     );
                                 })}
-                                <Flask className='icon fill'/>
+                                <Flask className='icon fill' />
                             </div>
                             <Divider tag='Interests' />
                             <ul>
