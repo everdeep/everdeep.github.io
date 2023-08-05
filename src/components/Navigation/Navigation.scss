@@ -214,3 +214,12 @@
     clip-path: circle(25% at 38% 62%);
     padding: 0;
 }
+
+
+
+//  When screen is smaller than 768px hide nav
+@media screen and (max-width: 950px) {
+    .navigation__container {
+        display: none;
+    }
+}

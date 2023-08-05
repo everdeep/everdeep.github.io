@@ -1,10 +1,12 @@
 {
     "name": "crypto-client",
     "version": "2.0.0",
-    "homepage": "",
+    "homepage": "https://everdeep.github.io/resume",
     "description": "Crypto client built from boiler plate: https://github.com/codesbiome/react-webpack-typescript-2022",
     "license": "MIT",
     "scripts": {
+        "predeploy": "yarn build",
+        "deploy": "gh-pages -d dist",
         "start": "cross-env NODE_ENV=development webpack serve --config tools/webpack/webpack.config.dev.js",
         "build": "cross-env NODE_ENV=production webpack --config tools/webpack/webpack.config.prod.js",
         "serve": "cross-env NODE_ENV=production webpack --config tools/webpack/webpack.config.prod.js && cross-env serve dist/",
