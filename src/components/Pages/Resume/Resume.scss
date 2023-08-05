@@ -1,0 +1,86 @@
+.resume__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    margin: 30px 30px 30px 15px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    background: var(--app-bgcolor-secondary);
+    overflow-y: auto;
+
+    > .section {
+        > .header {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: center;
+            gap: 10px;
+            margin-top: 15px;
+
+            .icon {
+                padding-right: 10px;
+                padding-left: 5px;
+            }
+
+            svg {
+                width: 32px;
+                height: 32px;
+            }
+        }
+
+        > .body {
+            display: flex;
+            flex-direction: column;
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: var(--app-color-accent);
+        margin: 5px 0;
+    }
+
+    h3 {
+        font-weight: 400;
+    }
+}
+
+.entry {
+
+    margin: 14px 0;
+
+    &__header {
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        > .title {
+            flex: 1;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        > .date {
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+    &__body {
+
+        span {
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}

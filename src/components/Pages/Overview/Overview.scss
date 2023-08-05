@@ -1,0 +1,13 @@
+.overview__container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+    .overview__header {
+        position: relative;
+        height: 80px;
+        width: 100%;
+        margin: 20px 0;
+        background-color: var(--app-bgcolor-secondary);
+    }
+}

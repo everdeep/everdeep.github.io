@@ -1,0 +1,9 @@
+export const type = {
+    SIGN_IN: 'SIGN_IN',
+    SIGN_OUT: 'SIGN_OUT',
+    PAGE_HOME: 'PAGE_HOME',
+    FORM_UPDATE: 'FORM_UPDATE',
+    FORM_CLEAR: 'FORM_CLEAR',
+    ALERT: 'ALERT',
+    ALERT_CLEAR: 'ALERT_CLEAR',
+};

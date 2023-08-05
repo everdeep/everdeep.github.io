@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "allowJs": true,
+        "target": "ES6",
+        "module": "ESNext",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "baseUrl": ".",
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "lib": ["dom", "dom.iterable"],
+        "paths": {
+            "*": ["node_modules/*"],
+            "@src/*": ["./src/*"],
+            "@assets/*": ["./assets/*"],
+            "@icons/*": ["./assets/icons/*"],
+            "@images/*": ["./assets/images/*"],
+            "@components/*": ["./src/components/*"],
+            "@pages/*": ["./src/components/Pages/*"],
+        }
+    },
+    "include": ["src/**/*", "tools/**/*"],
+}

@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*
+ *=========================================================================
+ * Dark Theme
+ *=========================================================================
+ *
+ * Here we define the Dark Theme (stylesheet) for application.
+ */
+
+:root {
+    // Application
+    --app-font-size: 16px;
+    --app-font-family: 'Roboto Slab', "Source Sans Pro", sans-serif;
+    --app-content-max-width: 1420px;
+    --app-icon-filter: invert(0.8);
+    
+    --app-logo-color: rgb(223, 51, 80);
+    --app-color: rgba(255, 255, 255, 0.7);
+    --app-color-hover: rgba(255, 255, 255, 0.5);
+    --app-color-accent: #16ffd0;
+    --app-color-accent-hover: #16ffd0;
+    --app-bgcolor: #111;
+    --app-bgcolor-hover: #222;
+    --app-bgcolor-secondary: #202020;
+    --app-bgcolor-secondary-hover: #2f2f2f;
+    --app-border-color: #3b3f44;
+    --app-border-secondary-color: #3b3f44;
+    --app-placeholder-color: rgba(255, 255, 255, 0.3);
+
+
+    // Tables
+    --table-header-bgcolor: #2f2f2f;
+    --table-header-color: #fff;
+    --table-border-color: #3b3f44;
+    --table-row-bgcolor: #2f2f2f;
+    --table-row-bgcolor-hover: #222;
+
+    // Scrollbar
+    --scroll-width: 5px;
+    --scroll-height: 5px;
+    --scroll-track-bgcolor: #2f2f2f52;
+    --scroll-thumb-bgcolor: rgba(59, 59, 59, 0.747);
+    --scroll-thumb-hover-bgcolor: #555;
+
+    // Selection
+    --selection-bgcolor: rgb(56, 125, 210, 0.1);
+    --selection-border-color: var(--app-accent-color);
+    --selection-color: var(--app-accent-color);
+
+    // Input
+    --input-color: var(--app-color);
+    --input-border-color: var(--app-border-color);
+    --input-hover-color: var(--app-accent-color-hover);
+    --input-placeholder-color: rgba(255, 255, 255, 0.3);
+    --input-placeholder-hover-color: rgba(255, 255, 255, 0.5);
+
+
+    // ================================
+    // Colors
+    // ================================
+    --color-green: #31e66e;
+    --color-red: #f84646;
+
+}
+
+/*
+ *=========================================================================
+ * Light Theme
+ *=========================================================================
+ *
+ * Light theme for application.
+ */
+
+body:not(.dark-mode) {
+    // Application
+    --app-color-accent: #2f77ca;
+    --app-color-accent-hover: #2f77ca;
+    --app-bgcolor: #f1f0f0;
+    --app-bgcolor-hover: #eaeaea;
+    --app-bgcolor-secondary: #fff;
+    --app-bgcolor-secondary-hover: #f9f9f9;
+    --app-border-color: #bdbdbd;
+    --app-border-secondary-color: #b7b7b7;
+    --app-hover-color: rgba(0, 0, 0, 0.5);
+    --app-color: rgba(0, 0, 0, 0.7);
+    --app-icon-filter: invert(0.2);
+
+
+    // Selection
+    --selection-bgcolor: rgb(56, 125, 210, 0.1);
+    --selection-border-color: var(--app-accent-color);
+    --selection-color: var(--app-accent-color);
+
+    // Input
+    --input-color: var(--app-color);
+    --input-border-color: var(--app-border-color);
+    --input-hover-color: var(--app-accent-color-hover);
+    --input-placeholder-color: rgba(0, 0, 0, 0.5)
+    --input-placeholder-hover-color: rgba(0, 0, 0, 0.4);
+
+    // Scrollbar
+    --scroll-track-bgcolor: #2f2f2f1f;
+    --scroll-thumb-bgcolor: rgb(59 59 59 / 30%);
+    --scroll-thumb-hover-bgcolor: var(--app-accent-color);
+
+
+    // Tables
+    --table-header-bgcolor: #2f2f2f;
+    --table-header-color: #fff;
+    --table-border-color: #bdbdbd;
+    --table-row-bgcolor: #f1f0f0;
+    --table-row-bgcolor-hover: #eaeaea;
+}

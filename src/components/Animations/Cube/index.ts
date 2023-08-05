@@ -1,0 +1,1 @@
+export { default, CubeWrapped } from './Cube';

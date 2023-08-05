@@ -1,0 +1,14 @@
+.divider {
+    width: 95%;
+    height: 1px;
+    margin: 0 auto;
+    background: var(--app-border-color);
+
+    &.accent {
+        background: var(--app-color-accent);
+    }
+
+    &.padded {
+        margin: 0 10px;
+    }
+}

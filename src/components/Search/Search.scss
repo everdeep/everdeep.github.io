@@ -1,0 +1,24 @@
+.search {
+    position: absolute;
+    right: 20px;
+    top: 25%;
+    margin: 0 auto;
+    width: fit-content;
+
+    .ui.icon.input > input {
+        width: 250px;
+        height: 40px;
+        border-radius: 20px;
+        // border: 1px solid var(--app-border-color);
+        padding: 0 10px;
+        font-size: 14px;
+        font-weight: 200;
+        color: var(--app-color);
+        background-color: var(--app-bgcolor-secondary-hover);
+
+        &:focus {
+            border: 1px solid var(--app-accent-color);
+            outline: none;
+        }
+    }
+}
